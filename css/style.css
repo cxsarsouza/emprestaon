@@ -1061,7 +1061,6 @@ button {
  }
  
  footer {
-   padding-bottom: 40px;
    background-color: #f3f3f3;
  }
  
@@ -1080,12 +1079,14 @@ button {
  }
  
  footer a {
-   color: #757575;
+   color: #353535;
  }
- 
+
  footer a:hover {
-   color: #272727;
- }
+     color: #ffffff;
+   }
+ 
+
  
  .contact-info {
    padding-top: 10px;
@@ -1163,11 +1164,11 @@ button {
      }
  }
 
- @media(max-width: 993px) {
-     .h2-politica{
-          font-size: 33px;
-          padding-top: 135px;
-     }
+     @media(max-width: 993px) {
+          .h2-politica{
+               font-size: 33px;
+               padding-top: 135px;
+          }
    
  }
 
@@ -1190,4 +1191,25 @@ button {
      background-color: #272727;
      color: #53b613;
    }
+
+   .img-bancos{
+     width: 130px;
+     cursor: pointer;
+   }
    
+   .img-bancos:hover img{
+     -webkit-transform: scale(1.15);
+     transform: scale(1.15);
+     transition: 0.3s;
+   
+   }
+   
+.row-bancos{
+     display: flex;
+}
+
+@media(max-width: 770px) {
+     .row-bancos{
+          justify-content: center;
+     }
+ }
